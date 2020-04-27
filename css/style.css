@@ -183,8 +183,8 @@
     }
     
     .collection-list-item {
+        width: 255px;
         float: left;
-        position: relative;
     }
     
     .collection-list-item:not(:last-of-type) {
@@ -195,15 +195,14 @@
         display: block;
     }
     
-    .collection__link-image {
-        display: block;
-        cursor: pointer;
+    .card_overlay {
+        position: relative;
     }
     
     .overlay {
         display: none;
-        width: 255px;
-        height: 282px;
+        width: 100%;
+        height: 100%;
         background-color: rgba(0, 0, 0, .5);
         position: absolute;
         top: 0;
@@ -239,11 +238,11 @@
         border: none;
     }
     
-    .overlay_list-item-button:nth-of-type(-n+2) {
+    .overlay_list-item:nth-of-type(-n+2) {
         margin-right: 8px;
     }
     
-    .overlay_list-item-button:nth-of-type(-n+3) {
+    .overlay_list-item:nth-of-type(-n+3) {
         margin-bottom: 8px;
     }
     
